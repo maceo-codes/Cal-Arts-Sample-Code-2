@@ -425,10 +425,6 @@ class Ample_Sample:
 
     #Clear pedalboard list
     def clear_chain(self):
-        #if len(self.board) == 0:
-            #self.clear_button.configure(state='disabled')
-        #if len(self.board) > 0:
-            #self.clear_button.configure(state='normal')
             self.board.clear()
 
 
